@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MealPlanner</string>
+    <!-- Replaced automatically by google-services plugin once google-services.json is added -->
+    <string name="default_web_client_id">PLACEHOLDER_CONFIGURE_FIREBASE</string>
+    <string name="brand">Mi recetario</string>
+    <string name="this_week">Esta semana</string>
+    <string name="auto_gen">Generada automáticamente</string>
+    <string name="filter_all">Todas</string>
+    <string name="recipes_subtitle">%1$d recetas</string>
+    <string name="ingredient_count_short">%1$d ingred.</string>
+    <string name="nav_plan_short">Plan</string>
+    <string name="add_to_plan">Agregar al plan</string>
+    <string name="for_people">Para %1$d personas</string>
+    <string name="meals_planned">%1$d comidas planificadas</string>
+    <string name="tap_for_list">Toca para ver tu lista</string>
+    <string name="action_random_fill">🎲 Rellenar semana al azar</string>
+    <string name="adding_meal">Elige dónde agregar</string>
+    <string name="tap_slot">Toca un espacio libre</string>
+    <string name="empty_shopping_title">Aún no hay nada que comprar</string>
+    <string name="empty_shopping_body">Planifica algunas comidas y tu lista aparecerá aquí, lista y consolidada.</string>
+    <string name="go_plan">Ir al plan</string>
+    <string name="share_list">Compartir lista</string>
+    <string name="shopping_progress">%1$d/%2$d comprado</string>
+    <string name="stat_items">ingredientes</string>
+    <string name="stat_recipes">recetas</string>
+    <string name="stat_meals">comidas</string>
+    <string name="cat_vegetables">Verduras</string>
+    <string name="cat_fruit">Frutas</string>
+    <string name="cat_meat">Carnes</string>
+    <string name="cat_dairy">Lácteos</string>
+    <string name="cat_frozen">Congelados</string>
+    <string name="cat_pantry">Despensa</string>
+    <string name="cat_condiments">Condimentos</string>
+    <string name="cat_drinks">Bebidas</string>
+    <string name="cat_desayuno">Desayuno</string>
+    <string name="cat_almuerzo">Almuerzo</string>
+    <string name="cat_cena">Cena</string>
+    <string name="cat_snack">Snack</string>
+    <string name="cat_postre">Postre</string>
+    <string name="meal_lunch">Almuerzo</string>
+    <string name="meal_dinner">Cena</string>
+    <string name="unit_g">g</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_ml">ml</string>
+    <string name="unit_l">l</string>
+    <string name="unit_unit">unidad</string>
+    <string name="unit_tbsp">cda</string>
+    <string name="unit_tsp">cdta</string>
+    <string name="unit_taza">taza</string>
+    <string name="unit_sobre">sobre</string>
+
+    <!-- Navigation -->
+    <string name="nav_recipes">Recetas</string>
+    <string name="nav_weekly_plan">Plan Semanal</string>
+    <string name="nav_shopping">Compras</string>
+
+    <!-- Screen titles -->
+    <string name="title_recipes">Recetas</string>
+    <string name="title_weekly_plan">Plan Semanal</string>
+    <string name="title_shopping_list">Lista de Compras</string>
+    <string name="title_ingredients">Ingredientes</string>
+    <string name="title_new_recipe">Nueva receta</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_back">Volver</string>
+    <string name="cd_edit">Editar</string>
+    <string name="cd_delete">Eliminar</string>
+    <string name="cd_add">Agregar</string>
+    <string name="cd_add_recipe">Agregar receta</string>
+    <string name="cd_add_ingredient">Agregar ingrediente</string>
+    <string name="cd_ingredients">Ingredientes</string>
+    <string name="cd_prev_week">Semana anterior</string>
+    <string name="cd_next_week">Semana siguiente</string>
+    <string name="cd_reduce">Reducir</string>
+    <string name="cd_increase">Aumentar</string>
+    <string name="cd_remove_step">Quitar paso</string>
+    <string name="cd_remove">Quitar</string>
+
+    <!-- Empty states -->
+    <string name="empty_recipes">No hay recetas aún. ¡Agrega una!</string>
+    <string name="empty_ingredients">No hay ingredientes. ¡Agrega uno!</string>
+    <string name="empty_shopping_list">Lista vacía. Planifica tus comidas primero.</string>
+    <string name="no_recipes">No hay recetas.</string>
+
+    <!-- Common actions -->
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_add">Agregar</string>
+    <string name="action_remove">Quitar</string>
+    <string name="action_create_and_add">Crear y agregar</string>
+
+    <!-- Recipe detail -->
+    <string name="delete_recipe_title">Eliminar receta</string>
+    <string name="delete_recipe_message">¿Eliminar esta receta? Esta acción no se puede deshacer.</string>
+    <string name="label_ingredients">Ingredientes</string>
+    <string name="label_preparation">Preparación</string>
+    <string name="servings_chip">%1$d porciones</string>
+    <string name="prep_time_chip">%1$d min</string>
+    <string name="recipe_card_subtitle">%1$s · %2$d porciones</string>
+    <string name="ingredient_line">• %1$s %2$s %3$s</string>
+
+    <!-- Recipe edit -->
+    <string name="label_recipe_name">Nombre</string>
+    <string name="placeholder_recipe_name">Ej. Lomo Saltado</string>
+    <string name="placeholder_preparation">Escribe un paso por línea…</string>
+    <string name="action_add_ingredient">+ Agregar ingrediente</string>
+    <string name="label_ingredient">Ingrediente</string>
+    <string name="title_edit_recipe">Editar receta</string>
+    <string name="label_category">Categoría</string>
+    <string name="label_servings">Porciones</string>
+    <string name="label_prep_time">Tiempo (min)</string>
+    <string name="label_search_ingredient">Buscar ingrediente</string>
+    <string name="label_step">Paso %1$d</string>
+    <string name="action_add_step">Agregar paso</string>
+    <string name="create_ingredient_query">Crear \"%1$s\"</string>
+    <string name="ingredient_with_unit">%1$s (%2$s)</string>
+    <string name="quantity_of_ingredient">Cantidad de %1$s</string>
+    <string name="label_quantity">Cantidad</string>
+    <string name="title_new_ingredient">Nuevo ingrediente</string>
+    <string name="label_name">Nombre</string>
+    <string name="label_unit">Unidad</string>
+    <string name="error_invalid_quantity">La cantidad debe ser mayor que cero</string>
+
+    <!-- Ingredient list -->
+    <string name="title_edit_ingredient">Editar ingrediente</string>
+    <string name="swipe_delete">Eliminar</string>
+
+    <!-- Weekly plan -->
+    <string name="choose_recipe">Elige una receta</string>
+    <string name="label_people">Personas:</string>
+    <string name="people_count">%1$d pers.</string>
+    <string name="label_search_recipe">Buscar receta</string>
+
+    <!-- Mercadona price preview -->
+    <string name="screen_price_preview_title">Precios Mercadona</string>
+    <string name="price_preview_loading">Buscando precios…</string>
+    <string name="price_preview_error">No se pudo cargar los precios</string>
+    <string name="price_preview_retry">Reintentar</string>
+    <string name="price_preview_no_match">No encontrado en Mercadona</string>
+    <string name="price_preview_total">Total estimado</string>
+    <string name="price_preview_summary">%1$d coincidencias · %2$d sin precio</string>
+    <string name="price_preview_approx_warning">Algunas cantidades son aproximadas (cucharadas → ml)</string>
+    <string name="price_preview_disclaimer">Estimación basada en precios actuales. Los precios pueden variar.</string>
+    <string name="price_preview_packs_needed">≈ %1$d %2$s</string>
+    <string name="price_preview_button">Ver precios Mercadona</string>
+
+    <!-- Errors -->
+    <string name="error_loading_recipes">Error al cargar las recetas</string>
+
+    <!-- Profile / Settings -->
+    <string name="nav_profile">Perfil</string>
+    <string name="profile_title">Mi perfil</string>
+    <string name="pref_section">Preferencias</string>
+    <string name="data_section">Mis datos</string>
+    <string name="about_section">Acerca de</string>
+    <string name="label_language">Idioma</string>
+    <string name="dark_mode">Modo oscuro</string>
+    <string name="default_servings">Porciones por defecto</string>
+    <string name="backup_export">Hacer backup (JSON)</string>
+    <string name="excel_export">Exportar recetas como Excel</string>
+    <string name="excel_export_success">Excel exportado correctamente</string>
+    <string name="backup_import">Restaurar backup</string>
+    <string name="backup_success">Backup guardado correctamente</string>
+    <string name="restore_success">Recetas restauradas correctamente</string>
+    <string name="restore_confirm_title">¿Restaurar backup?</string>
+    <string name="restore_confirm_body">Esto reemplazará todas tus recetas actuales. Esta acción no se puede deshacer.</string>
+    <string name="clear_data">Borrar todos los datos</string>
+    <string name="clear_data_success">Todos los datos fueron eliminados</string>
+    <string name="clear_confirm_title">¿Borrar todo?</string>
+    <string name="clear_confirm_body">Esto eliminará todas tus recetas, ingredientes y planificación. Esta acción no se puede deshacer.</string>
+    <string name="app_version">Versión %1$s</string>
+
+    <!-- Excel import -->
+    <string name="cd_import_excel">Importar desde Excel</string>
+    <string name="cd_import_recipe_ai">Importar receta con IA</string>
+    <string name="import_parsing">Leyendo archivo…</string>
+    <string name="import_preview_title">Importar recetas</string>
+    <string name="import_preview_body">Se encontraron %1$d recetas y %2$d ingredientes. ¿Importar al recetario?</string>
+    <string name="import_importing">Importando…</string>
+    <string name="import_success">%1$d recetas añadidas</string>
+    <string name="import_error_title">Error al importar</string>
+    <string name="action_import">Importar</string>
+</resources>

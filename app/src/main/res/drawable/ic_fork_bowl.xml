@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Fork: 3 tines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24 15 L30 15 L30 42 Q30 45 27 45 Q24 45 24 42 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M33 15 L39 15 L39 42 Q39 45 36 45 Q33 45 33 42 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42 15 L48 15 L48 42 Q48 45 45 45 Q42 45 42 42 Z" />
+
+    <!-- Fork: bridge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24 40 L48 40 L48 47 Q48 50 45 50 L27 50 Q24 50 24 47 Z" />
+
+    <!-- Fork: handle (rounded capsule, replaces <rect rx="6">) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 36,44 Q 42,44 42,50 L 42,76 Q 42,82 36,82 Q 30,82 30,76 L 30,50 Q 30,44 36,44 Z" />
+
+    <!-- Bowl: outer ring (replaces <circle cx=67 cy=64 r=20>) -->
+    <path
+        android:fillColor="#00FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:pathData="M 67,44 A 20,20 0 0,1 87,64 A 20,20 0 0,1 67,84 A 20,20 0 0,1 47,64 A 20,20 0 0,1 67,44 Z" />
+
+    <!-- Bowl: subtle inner fill (replaces <circle> with fillOpacity=0.1) -->
+    <path
+        android:fillColor="#1AFFFFFF"
+        android:pathData="M 67,51 A 13,13 0 0,1 80,64 A 13,13 0 0,1 67,77 A 13,13 0 0,1 54,64 A 13,13 0 0,1 67,51 Z" />
+
+    <!-- Steam wisp 1 -->
+    <path
+        android:strokeColor="#CCFFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 59 42 Q 53 34 59 17" />
+
+    <!-- Steam wisp 2 -->
+    <path
+        android:strokeColor="#CCFFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 67 40 Q 61 32 67 15" />
+
+    <!-- Steam wisp 3 -->
+    <path
+        android:strokeColor="#CCFFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 75 42 Q 69 34 75 17" />
+
+</vector>
